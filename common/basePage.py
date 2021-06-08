@@ -98,6 +98,7 @@ class BasePage():
     def click(self, locator):
         try:
             ele = self.findElement(locator)
+            self.logger.info('******************************'.format(locator))
             ele.click()
             self.logger.info("点击元素:"+str(locator))
         except Exception:

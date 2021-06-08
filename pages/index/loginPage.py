@@ -16,8 +16,10 @@ class LoginPage(basePage.BasePage):
     '''
     #button=('xpath','/html/body/div[10]/div[2]/div[3]/ul/li[1]')
     username=('id',"username")
-    password=('id','password')
-    login_button=('//*[@id="login"]')
+    userpass=('id','userpass')
+    #login_button=('//*[@id="login"]')
+    login_button=('id','login')
+
 
     '''
         系统相关组件
@@ -27,7 +29,7 @@ class LoginPage(basePage.BasePage):
         self.get(self.url)
         #self.click(self.crm_button)
         self.sendKeys(self.username,text=username)
-        self.sendKeys(self.password,text=password)
+        self.sendKeys(self.userpass,text=password)
         self.click(self.login_button)
 
 
