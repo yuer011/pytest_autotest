@@ -1,0 +1,80 @@
+{
+  "999997e8a8b55881fe3fae8af2f40014" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9656e91241db1213",
+      "status" : "passed",
+      "time" : {
+        "start" : 1545051154847,
+        "stop" : 1545051156048,
+        "duration" : 1201
+      }
+    } ]
+  },
+  "d915135e1209dac7efe3aff3ebe2814b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6ed518f31a3a04eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1545051148872,
+        "stop" : 1545051154842,
+        "duration" : 5970
+      }
+    } ]
+  },
+  "7a5519bb12d14f63fc199cd13bead394" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "eeb5ce4c15a77db2",
+      "status" : "broken",
+      "statusDetails" : "TypeError: setup_class() missing 1 required positional argument: 'self'",
+      "time" : {
+        "start" : 1623131886984,
+        "stop" : 1623131886984,
+        "duration" : 0
+      }
+    } ]
+  },
+  "d5e8c8dbbd82524d5fb3d59b1bf825a4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9ae558c50440d8d2",
+      "status" : "broken",
+      "statusDetails" : "TypeError: setup_class() missing 1 required positional argument: 'self'",
+      "time" : {
+        "start" : 1623131886909,
+        "stop" : 1623131886909,
+        "duration" : 0
+      }
+    } ]
+  }
+}

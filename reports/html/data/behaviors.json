@@ -1,0 +1,65 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "CRM登陆",
+    "children" : [ {
+      "name" : "TestLogin.test_login_001",
+      "uid" : "6ed518f31a3a04eb",
+      "parentUid" : "77d1fcb9ceacc484a7ecb51597f3d5f2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1545051148872,
+        "stop" : 1545051154842,
+        "duration" : 5970
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TestLogin.test_login_002",
+      "uid" : "9656e91241db1213",
+      "parentUid" : "77d1fcb9ceacc484a7ecb51597f3d5f2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1545051154847,
+        "stop" : 1545051156048,
+        "duration" : 1201
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "77d1fcb9ceacc484a7ecb51597f3d5f2"
+  }, {
+    "name" : "登陆",
+    "children" : [ {
+      "name" : "test_login_001",
+      "uid" : "9ae558c50440d8d2",
+      "parentUid" : "94c21cf5c63b02464e1cdf18a4ebaa5a",
+      "status" : "broken",
+      "time" : {
+        "start" : 1623131886909,
+        "stop" : 1623131886909,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_login_002",
+      "uid" : "eeb5ce4c15a77db2",
+      "parentUid" : "94c21cf5c63b02464e1cdf18a4ebaa5a",
+      "status" : "broken",
+      "time" : {
+        "start" : 1623131886984,
+        "stop" : 1623131886984,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "94c21cf5c63b02464e1cdf18a4ebaa5a"
+  } ]
+}

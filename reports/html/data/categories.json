@@ -1,0 +1,39 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "TypeError: setup_class() missing 1 required positional argument: 'self'",
+      "children" : [ {
+        "name" : "test_login_001",
+        "uid" : "9ae558c50440d8d2",
+        "parentUid" : "dc05e9b0a35a7c574c809e0a98780cfc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1623131886909,
+          "stop" : 1623131886909,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login_002",
+        "uid" : "eeb5ce4c15a77db2",
+        "parentUid" : "dc05e9b0a35a7c574c809e0a98780cfc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1623131886984,
+          "stop" : 1623131886984,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "dc05e9b0a35a7c574c809e0a98780cfc"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}
