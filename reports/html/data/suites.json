@@ -5,7 +5,7 @@
     "name" : "test_login",
     "children" : [ {
       "name" : "TestLogin.test_login_001",
-      "uid" : "73e4a4dd9c3236a6",
+      "uid" : "d8f98f3eaca07273",
       "parentUid" : "7db21133bf389fa43eef71e3fe0b0e68",
       "status" : "passed",
       "time" : {
@@ -18,7 +18,7 @@
       "parameters" : [ ]
     }, {
       "name" : "TestLogin.test_login_002",
-      "uid" : "b1b51c18016065bf",
+      "uid" : "a568e635e4d3074a",
       "parentUid" : "7db21133bf389fa43eef71e3fe0b0e68",
       "status" : "passed",
       "time" : {
@@ -39,26 +39,26 @@
         "name" : "TestLogin",
         "children" : [ {
           "name" : "test_login_001",
-          "uid" : "10d50c92374f4f7d",
+          "uid" : "8955442723d6f6c6",
           "parentUid" : "3274641ba86598c7d5684b38df5efc3d",
-          "status" : "broken",
+          "status" : "passed",
           "time" : {
-            "start" : 1623133821607,
-            "stop" : 1623133821607,
-            "duration" : 0
+            "start" : 1623141027756,
+            "stop" : 1623141030231,
+            "duration" : 2475
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         }, {
           "name" : "test_login_002",
-          "uid" : "52fedaab6a14eee9",
+          "uid" : "5c4b131309645e7e",
           "parentUid" : "3274641ba86598c7d5684b38df5efc3d",
           "status" : "broken",
           "time" : {
-            "start" : 1623133821678,
-            "stop" : 1623133821678,
-            "duration" : 0
+            "start" : 1623141030236,
+            "stop" : 1623141032130,
+            "duration" : 1894
           },
           "flaky" : false,
           "newFailed" : false,
