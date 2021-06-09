@@ -2,60 +2,34 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "name" : "behaviors",
   "children" : [ {
-    "name" : "CRM登陆",
+    "name" : "登陆",
     "children" : [ {
-      "name" : "TestLogin.test_login_001",
-      "uid" : "d8f98f3eaca07273",
-      "parentUid" : "77d1fcb9ceacc484a7ecb51597f3d5f2",
+      "name" : "test_login_001",
+      "uid" : "14f9501e456535d9",
+      "parentUid" : "94c21cf5c63b02464e1cdf18a4ebaa5a",
       "status" : "passed",
       "time" : {
-        "start" : 1545051148872,
-        "stop" : 1545051154842,
-        "duration" : 5970
+        "start" : 1623209140800,
+        "stop" : 1623209143144,
+        "duration" : 2344
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
-      "name" : "TestLogin.test_login_002",
-      "uid" : "a568e635e4d3074a",
-      "parentUid" : "77d1fcb9ceacc484a7ecb51597f3d5f2",
+      "name" : "test_login_002",
+      "uid" : "f61b2a58f134a9a3",
+      "parentUid" : "94c21cf5c63b02464e1cdf18a4ebaa5a",
       "status" : "passed",
       "time" : {
-        "start" : 1545051154847,
-        "stop" : 1545051156048,
-        "duration" : 1201
+        "start" : 1623209143149,
+        "stop" : 1623209144897,
+        "duration" : 1748
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     } ],
-    "uid" : "77d1fcb9ceacc484a7ecb51597f3d5f2"
-  }, {
-    "name" : "test_login_001",
-    "uid" : "8955442723d6f6c6",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1623141027756,
-      "stop" : 1623141030231,
-      "duration" : 2475
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "test_login_002",
-    "uid" : "5c4b131309645e7e",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "broken",
-    "time" : {
-      "start" : 1623141030236,
-      "stop" : 1623141032130,
-      "duration" : 1894
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
+    "uid" : "94c21cf5c63b02464e1cdf18a4ebaa5a"
   } ]
 }

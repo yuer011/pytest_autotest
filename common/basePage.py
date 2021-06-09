@@ -338,7 +338,7 @@ class BasePage():
             with open(file_name, 'rb') as file:
                 f = file.read()
                # MASTER_HELPER.attach("截图", f, type=AttachmentType.PNG)
-                allure.attach("截图", f, type=AttachmentType.PNG)
+                #allure.attach("截图", f, type=AttachmentType.PNG)
             self.logger.info("已成功生成截图，请确认！")
         except:
             raise Exception("截图失败!")

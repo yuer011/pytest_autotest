@@ -6,7 +6,7 @@ from selenium import webdriver
 
 
 
-allure.feature("登陆")
+@allure.feature("登陆")
 class TestLogin():
 
     allure.step("初始化启动浏览器")

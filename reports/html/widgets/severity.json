@@ -1,40 +1,20 @@
 [ {
-  "uid" : "8955442723d6f6c6",
+  "uid" : "14f9501e456535d9",
   "name" : "test_login_001",
   "time" : {
-    "start" : 1623141027756,
-    "stop" : 1623141030231,
-    "duration" : 2475
+    "start" : 1623209140800,
+    "stop" : 1623209143144,
+    "duration" : 2344
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "d8f98f3eaca07273",
-  "name" : "TestLogin.test_login_001",
-  "time" : {
-    "start" : 1545051148872,
-    "stop" : 1545051154842,
-    "duration" : 5970
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5c4b131309645e7e",
+  "uid" : "f61b2a58f134a9a3",
   "name" : "test_login_002",
   "time" : {
-    "start" : 1623141030236,
-    "stop" : 1623141032130,
-    "duration" : 1894
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "a568e635e4d3074a",
-  "name" : "TestLogin.test_login_002",
-  "time" : {
-    "start" : 1545051154847,
-    "stop" : 1545051156048,
-    "duration" : 1201
+    "start" : 1623209143149,
+    "stop" : 1623209144897,
+    "duration" : 1748
   },
   "status" : "passed",
   "severity" : "normal"
